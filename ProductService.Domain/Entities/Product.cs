@@ -16,7 +16,8 @@ namespace ProductService.Domain.Entities
         public DateOnly ProduceDate { get;  set; }   
 
 
-        public User CreatedByUserId { get;  set; } 
+        public User CreatedByUser { get;  set; }
+        public long CreatedByUserId { get; set; }
         public DateTime CreatedAt { get;  set; }
         public DateTime? UpdatedAt { get;  set; }
             

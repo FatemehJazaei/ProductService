@@ -31,7 +31,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\App\\ProductService\\ProductService.Persistence\\ProductService.Persistence.csproj": {
+                "projectPath": "F:\\App\\ProductService\\ProductService.Persistence\\ProductService.Persistence.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -300,7 +304,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\App\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+                "projectPath": "F:\\App\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -318,6 +326,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
