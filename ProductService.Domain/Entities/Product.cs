@@ -17,7 +17,7 @@ namespace ProductService.Domain.Entities
 
 
         public User CreatedByUser { get;  set; }
-        public long CreatedByUserId { get; set; }
+        public Guid CreatedByUserId { get; set; }
         public DateTime CreatedAt { get;  set; }
         public DateTime? UpdatedAt { get;  set; }
             
