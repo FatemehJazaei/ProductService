@@ -1,3 +1,5 @@
+using MediatR;
+using ProductService.Application.Common.Behaviors;
 using Microsoft.EntityFrameworkCore;
 
 // Add services to the container.
@@ -7,6 +9,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+
+
+builder.Services.AddMediatR(cfg =>
+    cfg.RegisterServicesFromAssembly(typeof(ProductService.Application.AssemblyReference).Assembly));
+
+// Register pipeline
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
 // DbContext registration
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
