@@ -1,4 +1,4 @@
-﻿namespace ProductApp.Application.Products.Queries.GetAllProducts
+﻿namespace ProductService.Application.Products.Dto
 {
     public class ProductDto
     {

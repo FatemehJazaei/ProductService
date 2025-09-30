@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 using MapsterMapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using ProductApp.Application.Products.Queries.GetAllProducts;
 using ProductService.Application.Common.Interfaces;
+using ProductService.Application.Products.Dto;
 
 namespace ProductService.Application.Products.Queries.GetAllProducts
 {

@@ -4,6 +4,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using ProductApp.Application.Products.Queries;
 using ProductService.Application.Common.Interfaces;
+using ProductService.Application.Products.Dto;
 
 namespace ProductApp.Application.Products.Queries.GetAllProducts
 {
