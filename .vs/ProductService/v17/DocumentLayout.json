@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "F:\\App\\ProductService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|f:\\app\\productservice\\productservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|solutionrelative:productservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFC59B65-D28B-4769-AEC0-9F7397B364C5}|ProductService.Application\\ProductService.Application.csproj|f:\\app\\productservice\\productservice.application\\common\\mappings\\productmappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFC59B65-D28B-4769-AEC0-9F7397B364C5}|ProductService.Application\\ProductService.Application.csproj|solutionrelative:productservice.application\\common\\mappings\\productmappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFC59B65-D28B-4769-AEC0-9F7397B364C5}|ProductService.Application\\ProductService.Application.csproj|f:\\app\\productservice\\productservice.application\\products\\queries\\getallproducts\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFC59B65-D28B-4769-AEC0-9F7397B364C5}|ProductService.Application\\ProductService.Application.csproj|solutionrelative:productservice.application\\products\\queries\\getallproducts\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFC59B65-D28B-4769-AEC0-9F7397B364C5}|ProductService.Application\\ProductService.Application.csproj|f:\\app\\productservice\\productservice.application\\products\\queries\\getallproducts\\getproductsbyuserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFC59B65-D28B-4769-AEC0-9F7397B364C5}|ProductService.Application\\ProductService.Application.csproj|solutionrelative:productservice.application\\products\\queries\\getallproducts\\getproductsbyuserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45E1B1DD-5CD2-46BD-BDEB-CAAF99BD9D3E}|ProductService.Persistence\\ProductService.Persistence.csproj|f:\\app\\productservice\\productservice.persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45E1B1DD-5CD2-46BD-BDEB-CAAF99BD9D3E}|ProductService.Persistence\\ProductService.Persistence.csproj|solutionrelative:productservice.persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{852613D4-77E1-4E28-BE2B-C5F0B0F8FBFD}|ProductApp.Application.Test\\ProductApp.Application.Test.csproj|f:\\app\\productservice\\productapp.application.test\\products\\createproducthandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{852613D4-77E1-4E28-BE2B-C5F0B0F8FBFD}|ProductApp.Application.Test\\ProductApp.Application.Test.csproj|solutionrelative:productapp.application.test\\products\\createproducthandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CFC59B65-D28B-4769-AEC0-9F7397B364C5}|ProductService.Application\\ProductService.Application.csproj|f:\\app\\productservice\\productservice.application\\common\\interfaces\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFC59B65-D28B-4769-AEC0-9F7397B364C5}|ProductService.Application\\ProductService.Application.csproj|solutionrelative:productservice.application\\common\\interfaces\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45E1B1DD-5CD2-46BD-BDEB-CAAF99BD9D3E}|ProductService.Persistence\\ProductService.Persistence.csproj|f:\\app\\productservice\\productservice.persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45E1B1DD-5CD2-46BD-BDEB-CAAF99BD9D3E}|ProductService.Persistence\\ProductService.Persistence.csproj|solutionrelative:productservice.persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFC59B65-D28B-4769-AEC0-9F7397B364C5}|ProductService.Application\\ProductService.Application.csproj|f:\\app\\productservice\\productservice.application\\products\\commands\\createproduct\\createproductmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,37 +74,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductMappingConfig.cs",
+              "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Application\\Common\\Mappings\\ProductMappingConfig.cs",
+              "RelativeDocumentMoniker": "ProductService.Application\\Common\\Mappings\\ProductMappingConfig.cs",
+              "ToolTip": "F:\\App\\ProductService\\ProductService.Application\\Common\\Mappings\\ProductMappingConfig.cs",
+              "RelativeToolTip": "ProductService.Application\\Common\\Mappings\\ProductMappingConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T07:24:54.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ProductService.Api\\Program.cs",
+              "ToolTip": "F:\\App\\ProductService\\ProductService.Api\\Program.cs",
+              "RelativeToolTip": "ProductService.Api\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T07:23:05.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetProductsByUserQuery.cs",
+              "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Application\\Products\\Queries\\GetAllProducts\\GetProductsByUserQuery.cs",
+              "RelativeDocumentMoniker": "ProductService.Application\\Products\\Queries\\GetAllProducts\\GetProductsByUserQuery.cs",
+              "ToolTip": "F:\\App\\ProductService\\ProductService.Application\\Products\\Queries\\GetAllProducts\\GetProductsByUserQuery.cs",
+              "RelativeToolTip": "ProductService.Application\\Products\\Queries\\GetAllProducts\\GetProductsByUserQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T07:21:16.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllProductsQuery.cs",
+              "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Application\\Products\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
+              "RelativeDocumentMoniker": "ProductService.Application\\Products\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
+              "ToolTip": "F:\\App\\ProductService\\ProductService.Application\\Products\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
+              "RelativeToolTip": "ProductService.Application\\Products\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T07:17:27.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CreateProductHandlerTest.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductApp.Application.Test\\Products\\CreateProductHandlerTest.cs",
               "RelativeDocumentMoniker": "ProductApp.Application.Test\\Products\\CreateProductHandlerTest.cs",
               "ToolTip": "F:\\App\\ProductService\\ProductApp.Application.Test\\Products\\CreateProductHandlerTest.cs",
               "RelativeToolTip": "ProductApp.Application.Test\\Products\\CreateProductHandlerTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T05:38:48.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Persistence\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ProductService.Persistence\\ApplicationDbContext.cs",
               "ToolTip": "F:\\App\\ProductService\\ProductService.Persistence\\ApplicationDbContext.cs",
               "RelativeToolTip": "ProductService.Persistence\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T08:40:49.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ICurrentUserService.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Application\\Common\\Interfaces\\ICurrentUserService.cs",
               "RelativeDocumentMoniker": "ProductService.Application\\Common\\Interfaces\\ICurrentUserService.cs",
@@ -101,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "CreateProductHandler.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Application\\Products\\Commands\\CreateProduct\\CreateProductHandler.cs",
               "RelativeDocumentMoniker": "ProductService.Application\\Products\\Commands\\CreateProduct\\CreateProductHandler.cs",
@@ -113,8 +181,12 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "CreateProductMapping.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Application\\Products\\Commands\\CreateProduct\\CreateProductMapping.cs",
               "RelativeDocumentMoniker": "ProductService.Application\\Products\\Commands\\CreateProduct\\CreateProductMapping.cs",
@@ -126,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "CreateProductValidator.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Application\\Products\\Commands\\CreateProduct\\CreateProductValidator.cs",
               "RelativeDocumentMoniker": "ProductService.Application\\Products\\Commands\\CreateProduct\\CreateProductValidator.cs",
@@ -138,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "CreateProductCommand.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Application\\Products\\Commands\\CreateProduct\\CreateProductCommand.cs",
               "RelativeDocumentMoniker": "ProductService.Application\\Products\\Commands\\CreateProduct\\CreateProductCommand.cs",
@@ -150,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ValidationBehavior.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Application\\Common\\Behaviors\\ValidationBehavior.cs",
               "RelativeDocumentMoniker": "ProductService.Application\\Common\\Behaviors\\ValidationBehavior.cs",
@@ -162,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "AssemblyReference.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Application\\AssemblyReference.cs",
               "RelativeDocumentMoniker": "ProductService.Application\\AssemblyReference.cs",
@@ -174,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "20250927080750_InitialCreate.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Persistence\\Migrations\\20250927080750_InitialCreate.cs",
               "RelativeDocumentMoniker": "ProductService.Persistence\\Migrations\\20250927080750_InitialCreate.cs",
@@ -186,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "UserConfiguration.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Persistence\\Mappings\\UserConfiguration.cs",
               "RelativeDocumentMoniker": "ProductService.Persistence\\Mappings\\UserConfiguration.cs",
@@ -198,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "ProductService.Domain.csproj",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
               "RelativeDocumentMoniker": "ProductService.Domain\\ProductService.Domain.csproj",
