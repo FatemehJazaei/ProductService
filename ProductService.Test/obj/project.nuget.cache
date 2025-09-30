@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kwSL3IdYaGY=",
+  "dgSpecHash": "odJGAA0twik=",
   "success": true,
   "projectFilePath": "F:\\App\\ProductService\\ProductService.Test\\ProductService.Test.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\heram\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\heram\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\heram\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
+    "C:\\Users\\heram\\.nuget\\packages\\mapster\\7.4.2-pre02\\mapster.7.4.2-pre02.nupkg.sha512",
+    "C:\\Users\\heram\\.nuget\\packages\\mapster.core\\1.2.3-pre02\\mapster.core.1.2.3-pre02.nupkg.sha512",
     "C:\\Users\\heram\\.nuget\\packages\\mediatr\\13.0.0\\mediatr.13.0.0.nupkg.sha512",
     "C:\\Users\\heram\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\heram\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",

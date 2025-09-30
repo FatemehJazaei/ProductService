@@ -1,7 +1,8 @@
+using Mapster;
+using MapsterMapper;
 using MediatR;
-using ProductService.Application.Common.Behaviors;
 using Microsoft.EntityFrameworkCore;
-
+using ProductService.Application.Common.Behaviors;
 // Add services to the container.
 using ProductService.Persistence;
 
@@ -10,6 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllers();
 
+var config = TypeAdapterConfig.GlobalSettings;
+config.Scan(typeof(ProductService.Application.AssemblyReference).Assembly);
 
 builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(typeof(ProductService.Application.AssemblyReference).Assembly));

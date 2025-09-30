@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FluentValidation;
 using MediatR;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace ProductService.Application.Common.Behaviors
 {
