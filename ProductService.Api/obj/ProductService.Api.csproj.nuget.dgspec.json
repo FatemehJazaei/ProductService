@@ -35,6 +35,9 @@
               "F:\\App\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
                 "projectPath": "F:\\App\\ProductService\\ProductService.Application\\ProductService.Application.csproj"
               },
+              "F:\\App\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+                "projectPath": "F:\\App\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
+              },
               "F:\\App\\ProductService\\ProductService.Persistence\\ProductService.Persistence.csproj": {
                 "projectPath": "F:\\App\\ProductService\\ProductService.Persistence\\ProductService.Persistence.csproj"
               }
@@ -127,8 +130,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\App\\ProductService\\ProductService.Persistence\\ProductService.Persistence.csproj": {
-                "projectPath": "F:\\App\\ProductService\\ProductService.Persistence\\ProductService.Persistence.csproj"
+              "F:\\App\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+                "projectPath": "F:\\App\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
               }
             }
           }
@@ -164,6 +167,10 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
             }
           },
           "imports": [
@@ -279,6 +286,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "F:\\App\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
+                "projectPath": "F:\\App\\ProductService\\ProductService.Application\\ProductService.Application.csproj"
+              },
               "F:\\App\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
                 "projectPath": "F:\\App\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
               }

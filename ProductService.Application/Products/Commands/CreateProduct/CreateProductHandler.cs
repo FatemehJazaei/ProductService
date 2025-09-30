@@ -17,16 +17,23 @@ namespace ProductService.Application.Products.Commands.CreateProduct
     {
         private readonly IApplicationDbContext _context;
         private readonly IMapper _mapper;
+        private readonly ICurrentUserService _currentUserService;
 
-        public CreateProductHandler(IApplicationDbContext context, IMapper mapper)
+        public CreateProductHandler(
+            IApplicationDbContext context,
+            IMapper mapper,
+            ICurrentUserService currentUserService)
         {
             _context = context;
             _mapper = mapper;
+            _currentUserService = currentUserService;
         }
 
         public async Task<Guid> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
-            var product = _mapper.From(request).AdaptToType<Product>();
+            var product = _mapper.Map<Product>(request);
+
+            product.CreatedByUserId = _currentUserService.UserId ?? Guid.Empty;
 
             _context.Products.Add(product);
             await _context.SaveChangesAsync(cancellationToken);

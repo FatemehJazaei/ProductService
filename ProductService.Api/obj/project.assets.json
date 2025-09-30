@@ -1713,7 +1713,8 @@
           "Mapster": "7.4.2-pre02",
           "MediatR": "13.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
-          "ProductService.Persistence": "1.0.0"
+          "Microsoft.EntityFrameworkCore": "9.0.9",
+          "ProductService.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ProductService.Application.dll": {}
@@ -1738,6 +1739,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.9",
+          "ProductService.Application": "1.0.0",
           "ProductService.Domain": "1.0.0"
         },
         "compile": {
@@ -5035,6 +5037,7 @@
       "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.9",
       "ProductService.Application >= 1.0.0",
+      "ProductService.Domain >= 1.0.0",
       "ProductService.Persistence >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
@@ -5073,6 +5076,9 @@
           "projectReferences": {
             "F:\\App\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
               "projectPath": "F:\\App\\ProductService\\ProductService.Application\\ProductService.Application.csproj"
+            },
+            "F:\\App\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+              "projectPath": "F:\\App\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
             },
             "F:\\App\\ProductService\\ProductService.Persistence\\ProductService.Persistence.csproj": {
               "projectPath": "F:\\App\\ProductService\\ProductService.Persistence\\ProductService.Persistence.csproj"

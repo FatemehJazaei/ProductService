@@ -1,19 +1,23 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using ProductService.Domain.Entities;
+using ProductService.Application.Common.Interfaces;
 
 namespace ProductService.Persistence
 {
-        public class ApplicationDbContext : DbContext
-        {
+        public class ApplicationDbContext : DbContext , IApplicationDbContext
+    {
             public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
             {
             }
 
-        // DbSets
-        public DbSet<Product> Products { get; set; }
+            // DbSets
+            public DbSet<Product> Products { get; set; }
             public DbSet<User> Users { get; set; }
 
+            public async Task<int> SaveChangesAsync(CancellationToken cancellationToken)
+            {
+                return await base.SaveChangesAsync(cancellationToken);
+            }
             protected override void OnModelCreating(ModelBuilder builder)
             {
                 base.OnModelCreating(builder);
