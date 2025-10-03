@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|solutionrelative:productservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|f:\\app\\productservice\\productservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|solutionrelative:productservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|f:\\app\\productservice\\productservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|solutionrelative:productservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|f:\\app\\productservice\\productservice.api\\productservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|solutionrelative:productservice.api\\productservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|f:\\app\\productservice\\productservice.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|solutionrelative:productservice.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|f:\\app\\productservice\\productservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|solutionrelative:productservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|f:\\app\\productservice\\productservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|solutionrelative:productservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{754D016B-DBB5-4064-BF85-AAC3684A3F35}|ProductService.Api\\ProductService.Api.csproj|f:\\app\\productservice\\productservice.api\\authorization\\ownerrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,17 +42,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "ProductService.Api.csproj",
+              "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Api\\ProductService.Api.csproj",
+              "RelativeDocumentMoniker": "ProductService.Api\\ProductService.Api.csproj",
+              "ToolTip": "F:\\App\\ProductService\\ProductService.Api\\ProductService.Api.csproj",
+              "RelativeToolTip": "ProductService.Api\\ProductService.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-01T14:06:45.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Api\\appsettings.json",
               "RelativeDocumentMoniker": "ProductService.Api\\appsettings.json",
               "ToolTip": "F:\\App\\ProductService\\ProductService.Api\\appsettings.json",
               "RelativeToolTip": "ProductService.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-30T13:36:46.731Z",
               "EditorCaption": ""
@@ -61,53 +82,51 @@
               "RelativeDocumentMoniker": "ProductService.Api\\Program.cs",
               "ToolTip": "F:\\App\\ProductService\\ProductService.Api\\Program.cs",
               "RelativeToolTip": "ProductService.Api\\Program.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAADwvykAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T11:46:55.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProductController.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Api\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ProductService.Api\\Controllers\\ProductController.cs",
               "ToolTip": "F:\\App\\ProductService\\ProductService.Api\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ProductService.Api\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACwAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T11:48:50.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T11:48:50.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AccountController.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Api\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ProductService.Api\\Controllers\\AccountController.cs",
               "ToolTip": "F:\\App\\ProductService\\ProductService.Api\\Controllers\\AccountController.cs",
               "RelativeToolTip": "ProductService.Api\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAA5wFoAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAYwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T11:39:07.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "ProductService.Domain\\Entities\\User.cs",
               "ToolTip": "F:\\App\\ProductService\\ProductService.Domain\\Entities\\User.cs",
               "RelativeToolTip": "ProductService.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA0AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T11:32:53.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T11:32:53.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "OwnerRequirement.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Api\\Authorization\\OwnerRequirement.cs",
               "RelativeDocumentMoniker": "ProductService.Api\\Authorization\\OwnerRequirement.cs",
@@ -115,12 +134,11 @@
               "RelativeToolTip": "ProductService.Api\\Authorization\\OwnerRequirement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T11:45:16.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T11:45:16.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Product.cs",
               "DocumentMoniker": "F:\\App\\ProductService\\ProductService.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "ProductService.Domain\\Entities\\Product.cs",
